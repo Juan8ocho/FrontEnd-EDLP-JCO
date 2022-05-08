@@ -78,7 +78,7 @@ header { background-color: : black;
 }
 
 section { background-color:#F7F57E;
-width: 48%;
+width: 68%;
 float: left;
 margin:1%;
 padding: 10px;
@@ -89,7 +89,7 @@ overflow: auto;
 }
 
 aside { background-color:  white;
-width: 48%;
+width: 28%;
 float: left;
 margin: 1%;
 padding: 10px;
