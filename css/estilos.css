@@ -73,3 +73,63 @@ h7 {font-style: oblique; display: flex; justify-content: center; font-size: larg
     top:  850px;
     right: 0px;
    		}
+
+header { background-color: : black;
+}
+
+section { background-color:#F7F57E;
+width: 48%;
+float: left;
+margin:1%;
+padding: 10px;
+border:  1px solid black;
+box-sizing:border-box;
+height: auto;
+overflow: auto;
+}
+
+aside { background-color:  white;
+width: 48%;
+float: left;
+margin: 1%;
+padding: 10px;
+border:  1px solid black;
+box-sizing:border-box;
+overflow: auto;
+}
+footer {background-color: red;
+  background-image: url(../Imagenes/fondo.jpg);
+clear: both;
+}
+
+nav { background-color: green;
+}
+
+.pasofinal :hover {color: black;}
+.pasoapaso :hover {background-size: 30%;
+color: blue;
+transform: scale(1.2);}
+
+.pasosalsa:hover {
+  background-color: red;
+}
+
+.link:hover {color: pink;
+background-color: black;}
+
+.link2:hover {color: pink;
+background-color: black;}
+
+.foto:hover {
+transform: scale(1.2);
+}
+
+.fotodescarga:hover {
+  color: #FA0101;
+  background-color: black;
+  }
+
+nav ul li {display: inline-block;
+margin: 10%;}
+
+}
