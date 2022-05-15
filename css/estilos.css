@@ -1,12 +1,18 @@
+@@font-face {
+  font font-family: "casual";
+  src: url("../Fuentes/MISTRAL.ttf") format('TrueType');
+  font-style: normal; font-weight: normal;
+}
 body {
 background-color: #D5FD9A;
 background-image: url(../Imagenes/fondo.jpg);
 background-repeat: repeat-x;
 background-attachment: scroll;
 background-position: bottom;
+font-size: 16px;
 }
 #titulo {text-decoration: underline;}
-h2 {text-decoration: underline;}
+h2 {text-decoration: underline; }
 h3 {text-decoration: underline;}
 h4 {text-decoration: underline;}
 h5 {text-decoration: underline;}
@@ -15,7 +21,7 @@ h7 {text-decoration: underline;}
 .parte1 {background-color: #D5FD9A;}
 #titulo {font-weight: bold; color: #FF0000;}
 #titulo {display: flex; justify-content: center; font-style: normal; font-size: xx-large; }
-h2 {display: flex; justify-content: center; font-style: normal; font-size: x-large;}
+h2 {display: flex; justify-content: center; font-style: normal; font-size: 1.5rem;}
 h3 {font-style: oblique; display: flex; justify-content: center; font-size: larger;}
 h4 {font-style: oblique; display: flex; justify-content: center; font-size: larger;}
 h5 {font-style: oblique; display: flex; justify-content: center; font-size: larger;}
@@ -23,7 +29,9 @@ h6 {font-style: oblique; display: flex; justify-content: center; font-size: larg
 h7 {font-style: oblique; display: flex; justify-content: center; font-size: larger;}
 .parrafo1 {color: #943126;
   font-style: italic;
-  text-align: justify;}
+  text-align: justify;
+  font-size: 1.2em;
+}
 .Ingredientes {text-align: justify;
   display: flex;
   flex-direction: column;
@@ -54,9 +62,12 @@ h7 {font-style: oblique; display: flex; justify-content: center; font-size: larg
   flex-direction: column;
   align-items: center;}
 
-.foto {width: 20%; height: 20%;}
-.foto { display: block; margin: 0px auto;}
-.fotodescarga { text-align: center; display: inline-block; width: 100%;}
+
+.fotodescarga {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
 
 .mapa {width: 560px;
     height: 315px;
@@ -74,28 +85,59 @@ h7 {font-style: oblique; display: flex; justify-content: center; font-size: larg
     right: 0px;
    		}
 
-header { background-color: : black;
+header {
+  background-color: white;
+  width: 100%;
+  height: 38vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intro {
+width: 100%;
+height: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
 }
 
+.foto {
+  width: 20%;
+  height: 60%;
+  display: block; margin: 0px auto;
+
+}
+
+.columnas {
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  width: 100vw;
+  height:auto;
+
+}
 section { background-color:#F7F57E;
-width: 68%;
+width: 90%;
 float: left;
 margin:1%;
-padding: 10px;
+padding: 3rem;
 border:  1px solid black;
 box-sizing:border-box;
 height: auto;
 overflow: auto;
+
 }
 
 aside { background-color:  white;
-width: 28%;
+width: 10%;
 float: left;
 margin: 1%;
 padding: 10px;
 border:  1px solid black;
 box-sizing:border-box;
 overflow: auto;
+
 }
 footer {background-color: red;
   background-image: url(../Imagenes/fondo.jpg);
@@ -103,6 +145,7 @@ clear: both;
 }
 
 nav { background-color: green;
+
 }
 
 .pasofinal :hover {color: black;}
@@ -131,5 +174,3 @@ transform: scale(1.2);
 
 nav ul li {display: inline-block;
 margin: 10%;}
-
-}
