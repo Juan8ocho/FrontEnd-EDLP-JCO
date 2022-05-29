@@ -14,10 +14,6 @@
 
 body {
 background-color: #D5FD9A;
-background-image: url(../Imagenes/fondo.jpg);
-background-repeat: repeat-x;
-background-attachment: scroll;
-background-position: bottom;
 font-size: 16px;
 }
 #titulo {text-decoration: underline; font-family: "MISTRAL";
@@ -179,8 +175,13 @@ width: 10%;
 
 }
 footer {
+  background-color: #F7A17E;
   background-image: url(../Imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
 }
+
 
 .mapayt {
   display: flex;
@@ -190,11 +191,12 @@ footer {
 .redessociales {
  display: flex;
  justify-content: flex-start;
-
-
 }
 
+
 nav { background-color: green;
+  display: flex;
+  flex-direction: row;
 
 }
 
@@ -221,10 +223,6 @@ transform: scale(1.2);
   color: #FA0101;
   background-color: black;
   }
-
-nav ul li {display: inline-block;
-margin: 10%;}
-
 
 
 @media(max-width: 500px) {
