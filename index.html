@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet"  href="./css/estilos.css">
     <title> Potrero Edlp </title>
+
   </head>
 
+<body id="cuerpo">
+  <script>
+  alert("Preparate para ser el mejor cocinero")
+ </script>
 
+<header id="cabeza">
 
-<body>
-
-<header>
-<div class="intro">
+<div id="intro" class="intro">
   <h1 id="titulo"> Comidas del Mediterraneo </h1>
   <h2>Musaka Griega</h2>
   <br>
@@ -24,13 +27,16 @@
   <a class="fotodescarga" href="Imagenes/musaka.jpg" target="_blank" dowload= "musaka.jpg">
   <img src="musaka.jpg" alt="Descargar foto">
   </a>
+
+
 </div>
 
   <img class="isla" src="./Imagenes/isla.jpg" alt="isla">
-
-
 </header>
-<nav>
+
+<button  onclick="modonoche()">Modo Noche</button>
+
+<nav id="nav">
 <ul>
   <a class="link" href="contacto.html"target="_blank">CONTACTO</a>
   <a href="https://elcomidista.elpais.com/elcomidista/2011/11/10/articulo/1320904800_132090.html" target="_blank"> SPANAKOPITA </a>
@@ -40,10 +46,10 @@
 </ul>
 </nav>
 
-<div class="columnas">
-<section>
+<div  id="colum" class="columnas">
+<section id="principal">
 
-  <p class="parrafo1"> La musaka es un pastel de berenjenas de origen árabe, aunque realmente se considera como una receta griega.
+  <p id="parra1" class="parrafo1"> La musaka es un pastel de berenjenas de origen árabe, aunque realmente se considera como una receta griega.
 Prepararla es simple es muy parecida a la lasaña por las capas, pero no lleva pasta, sino que estos ‘pisos’ son de berenjena, papas y carne principalmente.
 La receta original de musaka griega no lleva carne picada, sino cordero.
 Simplemente con un rico tomate, una bechamel espesa y quesito para gratinar, nos encontramos con un plato de
@@ -51,7 +57,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
 
 <h3> Ingredientes de la Musaka </h3>
 
-<ul class="Ingredientes">
+<ul id="torre1"class="Ingredientes">
   <li>2 o 3 berenjenas</li>
   <li>450 g. carne molida (de cordero o ternera)</li>
   <li>1 cebolla</li>
@@ -65,7 +71,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
 </ul>
 
 <h4> Ingredientes para salsa bechamel </h4>
-  <ul class="Ingredientessalsa">
+  <ul id="torre2"class="Ingredientessalsa">
     <li>25 g. de manteca o aceite de oliva</li>
     <li>25 g. de harina</li>
     <li>500 ml. de leche entera o semi-descremada</li>
@@ -74,7 +80,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
   </ul>
 
 <h5> Receta paso a paso </h5>
-<ol class="pasoapaso">
+<ol id="torre3" class="pasoapaso">
   <li>Lavar las berenjenas y cortar en rodajas de medio centímetro. Colocar sobre un papel absorbente con una pizca de sal </li>
   <li>Mientras, en una sartén con aceite ir friendo las papas cortadas en rodajas de medio centímetro, previamente ponerle una pizca de sal para condimentar. Freír ligeramente hasta que estén tiernas. Una vez listas, escurrirlas y reservar</li>
   <li>  En la misma sartén dejarle un fondo de aceite. Comenzar a freír las berenjenas por tandas. A medida que se fríe, ir añadiendo aceite</li>
@@ -85,7 +91,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
 
 </ol>
  <h6> Para hacer la salsa bechamel </h6>
-<ol class="pasosalsa">
+<ol id="torre4"class="pasosalsa">
   <li>En una sartén derretir la mantequilla y agregar la harina, freír bien para que no quede sabor a crudo y batir con las varillas manuales</li>
   <li>Ir incorporando la leche mientras se continúa batiendo hasta conseguir la consistencia de la salsa bechamel</li>
   <li>Salar y añadir una pizca de nuez moscada</li>
@@ -93,7 +99,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
 <br>
 
 <h7> Preparar la Musaka </h7>
-<ol class="pasofinal">
+<ol id="torre5"class="pasofinal">
   <li>Colocar aceite en el molde para el horno y comenzar colocando en la base las rodajas de papas</li>
   <li>Arriba de la base continuar con la primera capa de berenjena y después una capa de la salsa de carne, repartir y aplastar con el dorso de una cuchara y repetir esta operación: capa de berenjenas y capa de carne. Así hasta acabar con ellas</li>
   <li>  Cubrir con la salsa bechamel y espolvorear con queso rallado, parmesano o mozzarella, el que más te guste</li>
@@ -103,7 +109,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
 
 
 
-<aside class="Enlaces">
+<aside id="asi1"class="Enlaces">
 
   <a href="https://www.paulinacocina.net/musaka-griega/24959" target="_blank"> Pagina de referencia  <a/>
   <br>
@@ -114,7 +120,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
 </div>
 <br>
 
-<footer>
+<footer id="foo">
 <div class="mapayt">
   <br>
   <br>
@@ -130,13 +136,13 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
 
 
 
- <div class="card-deck">
+ <div  class="card-deck">
     <div class="col-sm-12 col-md-6 col-lg-3">
      <div class="card border-dark mb-3"  style="width: 18rem;">
      <img src="./Imagenes/salmon.jpg" class="card-img-top" alt="...">
-     <div class="card-body">
+     <div id="cartitas1" class="card-body">
        <h5 class="text-center">Salmon con esparragos</h5>
-       <p class="text-center"> El salmón es uno de los alimentos que más beneficios tienen para el corazón combate la presión arterial alta.</p>
+       <p  class="text-center"> El salmón es uno de los alimentos que más beneficios tienen para el corazón combate la presión arterial alta.</p>
        <a href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/salmon-con-ensalada-de-esparragos/" target="_blank" class="p-2 mb-2 bg-danger text-white">Ver Receta</a>
      </div>
      </div>
@@ -144,7 +150,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
     <div class="col-sm-12 col-md-6 col-lg-3">
       <div class="card border-dark mb-3"  style="width: 18rem;" >
        <img src="./Imagenes/frijol.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
+      <div id="cartitas2" class="card-body">
 
         <h5 class="text-center">Ensalada de frijol y queso</h5>
         <p class="text-center" > Los frijoles pueden reducir el riesgo de enfermedades del corazón y coronarias y puede prevenir enfermedades crónicas como el cáncer.</p>
@@ -155,7 +161,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
     <div class="col-sm-12 col-md-6 col-lg-3">
       <div class="card border-dark mb-3"  style="width: 18rem;">
        <img src="./Imagenes/taco.jpg" class="card-img-top" alt="...">
-       <div class="card-body">
+       <div id="cartitas3" class="card-body">
          <h5 class="text-center">Taco árabe de pescado</h5>
          <p class="text-center"> El taco árabe de pescado empanizado con ajonjolí, una forma distinta y deliciosa de comer pescado.</p>
          <a href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/taco-arabe-de-pescado-empanizado-con-ajonjoli/" target="_blank" class="p-2 mb-2 bg-danger text-white">Ver Receta</a>
@@ -166,7 +172,7 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
     <div class="col-sm-12 col-md-6 col-lg-3">
       <div class="card border-dark mb-3"  style="width: 18rem;">
        <img src="./Imagenes/arroz.jpg" class="card-img-top" alt="...">
-       <div class="card-body">
+       <div id="cartitas4" class="card-body">
          <h5 class="text-center">Arroz integral con piña y coco</h5>
          <p class="text-center"> Este increíble arroz integral con piña y coco te llenará de toda la energía que necesitas para arrasar con todo en tu día.</p>
          <a href="https://www.cocinafacil.com.mx/recetas-de-comida/receta/arroz-integral-con-pina-y-coco/" target="_blank" class="p-2 mb-2 bg-danger text-white">Ver Receta</a>
@@ -181,14 +187,21 @@ primera categoría, famoso internacionalmente y reconocido por todos.</p>
 
 
 
-<div class="redessociales">
+<div id="redes"class="redessociales">
   <a target="_blank" href="http://instagram.com/juan.ochoo"><img style="margin:5px" src="./Imagenes/insta.png" width="30" height="30" alt="Instagram"></a><a target="_blank" href="http://facebook.com/"><img style="margin:5px" src="./Imagenes/face.png" width="30" height="30" alt="Facebook"></a>
   <a class="wasa" target="_blank" href="https://api.whatsapp.com/send?phone=5492215551436"><img style="margin:5px" src="./Imagenes/ws.png" width="30" height="30" alt="whatsapp"></a>
 
 <br>
 Derechos Reservados &copy; 2022 Potrero
 </div>
+<script>
+  function cartel() {alert("Este sitio lo hizo Juan Cruz Occhiuzzi :) ")}
+</script>
+<button  onclick="cartel()">Informacion</button>
+
 </footer>
+
+<script src="Js/script.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
